@@ -12,10 +12,12 @@ describe('AppController', () => {
     }).compile();
   });
 
-  describe('getData', () => {
-    it('should return "Hello API"', () => {
+  describe('getHello', () => {
+    it('should return "Hello! The Client API is running!"', () => {
       const appController = app.get<AppController>(AppController);
-      expect(appController.getData()).toEqual({ message: 'Hello API' });
+      expect(appController.getHello()).toEqual({
+        message: 'Hello! The Client API is running!',
+      });
     });
   });
 });

@@ -19,8 +19,6 @@ describe('App', () => {
         <App />
       </BrowserRouter>,
     );
-    expect(
-      getAllByText(new RegExp('Welcome @datasite/datasite', 'gi')).length > 0,
-    ).toBeTruthy();
+    expect(getAllByText(/Hi, Datasite/gi).length > 0).toBeTruthy();
   });
 });

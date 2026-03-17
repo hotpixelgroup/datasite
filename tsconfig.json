@@ -1,0 +1,19 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./apps/datasite-e2e"
+    },
+    {
+      "path": "./apps/datasite"
+    },
+    {
+      "path": "./apps/api"
+    },
+    {
+      "path": "./libs/hooks"
+    }
+  ]
+}

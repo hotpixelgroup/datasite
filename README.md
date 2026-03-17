@@ -13,16 +13,38 @@
 
 ## Run tasks
 
-To run the dev server for your app, use:
+To run the dev server for each app, use:
+
+**Frontend (React):**
 
 ```sh
 npx nx serve datasite
 ```
 
+**API (Express):**
+
+```sh
+npx nx serve api
+```
+
+**API (NestJS):**
+
+```sh
+npx nx serve nest-api
+```
+
 To create a production bundle:
 
 ```sh
-npx nx build datasite
+npx nx build <app-name>
+```
+
+For example: `npx nx build datasite`
+
+To run all services simultaneously (frontend and Express API), use:
+
+```sh
+npm run dev
 ```
 
 To see all available targets to run for a project, run:

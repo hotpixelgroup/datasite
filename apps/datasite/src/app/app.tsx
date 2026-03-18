@@ -7,7 +7,7 @@ export function App() {
   /* TODO: Come up with something engineers actually do in the real world applications to
    demonstrate their knowledge of Typescript, React, React Router, state management solutions,
    Observables, hooks, custom hooks, API integrations, component hydration, something
-   that actually demonstrates real-world engineering tasks.
+   that demonstrates real-world engineering tasks.
    Once they have done that, unleash them with something they can show off with AI.
  */
 

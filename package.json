@@ -20,7 +20,7 @@
     "graphql": "^16.13.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-router-dom": "6.30.3",
+    "react-router-dom": "6.30.4",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.8.0",
     "swagger-jsdoc": "^6.2.8",
